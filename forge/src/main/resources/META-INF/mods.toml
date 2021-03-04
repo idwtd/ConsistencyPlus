@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[35,)"
+issueTrackerURL = "https://github.com/ConsistencyPlus/ConsistencyPlus/issues"
+license = "GPLv3"
+
+[[mods]]
+modId = "consistency_plus"
+version = "${version}"
+displayName = "Consistency Plus"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/consistency"
+authors = "Carter,IMS,Siuol,Digi,Devin,Devious,Tropheus Jay"
+description = "Builders Rejoice, We've added all the missing block variants!"
+
+[[dependencies.consistency_plus]]
+modId = "forge"
+mandatory = true
+versionRange = "[35,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.consistency_plus]]
+modId = "minecraft"
+mandatory = true
+ordering = "NONE"
+side = "BOTH"
